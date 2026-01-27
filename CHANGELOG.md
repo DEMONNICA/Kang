@@ -2,6 +2,26 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [5.0.0] `THE FINAL END`
+> 
+> - Changed the previous version method storage `DEMONIC-PRJKT/version` now `.method`.
+> - Kang in the current version only supports `AXM` 1.4.0 + cannot be used on version 1.3.*.
+> - Moved `suppress_panic & silence_kernel` into `R` for root users, previously in `post-fs-data.sh`.
+> - Reduce logging overhead, increase privacy, save battery.
+> - Delete usage history, increase privacy, clear cache stats.
+> - Fixed pid values piling up in version.
+> - Disable overhead testing for HWUI filter.
+> - Disable HWUI profiling and Set the HWUI debug level to 0 (disabled).
+> - Disable capture of SKP (Skia Picture) files.
+> - Disable dirty regions visualization and Disable layer updates visualization.
+> - Disable tracing GPU resources.
+> - Disable atrace for Skia and Disable Skia tracing.
+> - Disable Perfetto track events for Skia.
+> - Reduce system overhead and Improve UI rendering performance.
+> - Removed `Android` detection in description.
+> - And many more optimizations for the latest version.
+---
+
 > [4.0.0] `FINAL`
 >
 > - Dynamic banner usage for root and non-root users.
