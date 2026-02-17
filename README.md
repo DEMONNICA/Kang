@@ -6,7 +6,8 @@
 
 > [!IMPORTANT]  
 > Features ✨:  
-> 1. All optimizations in one. ✔️
+> 1. All the improvements and stability are all here. ✔️
+> 2. Gaming and multitasking enhancements all rolled into one. ✔️
 <hr/>
 
 > [!TIP]
