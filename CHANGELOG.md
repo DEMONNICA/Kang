@@ -2,6 +2,20 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [6.0.0]
+> 
+> - Changes and improvements to `customize.sh and action.sh` handling for Plugins stability.
+> - Changes and updates to `uninstall.sh and verify.sh` for easier and more stable operation.
+> - Changes and updates to `post-fs-data.sh and service.sh` for better handling.
+> - Disables and resets Binder call statistics (inter-process communication).
+> - Disables various types of display logging.
+> - Clears and stops collecting process statistics.
+> - Reduced memory used for kernel tracing for `R`.
+> - Reduced unnecessary window manager logs, saving resources for `NR`.
+> - Added `disable_error_reporting` to reduce errors in sending error data.
+> - Improved `surfaceflinger` optimization for even better ui and game experience.
+---
+
 > [5.0.0] `THE FINAL END`
 > 
 > - Changed the previous version method storage `DEMONIC-PRJKT/version` now `.method`.
