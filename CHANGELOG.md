@@ -2,6 +2,19 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [6.6.6]
+> 
+> - License Changes.
+> - Changed the structure of `README.md` for a better impression.
+> - Updated `customize.sh and verify.sh` for better future performance.
+> - Simplify the `post-fs-data.sh` script by combining loops and removing irrelevant performance configuration.
+> - Some changes and optimizations in `service.sh` for easier handling in the future.
+> - Changed the binary names `NR -> shell` and `R -> root` for easier understanding.
+> - Optimized `uninstall.sh` for cleaner uninstallation.
+> - Improvements and updates to `action.sh` to get even better results.
+> - And optimization And misc fixes.
+---
+
 > [6.0.0]
 > 
 > - Changes and improvements to `customize.sh and action.sh` handling for Plugins stability.
@@ -16,7 +29,7 @@
 > - Improved `surfaceflinger` optimization for even better ui and game experience.
 ---
 
-> [5.0.0] `THE FINAL END`
+> [5.0.0]
 > 
 > - Changed the previous version method storage `DEMONIC-PRJKT/version` now `.method`.
 > - Kang in the current version only supports `AXM` 1.4.0 + cannot be used on version 1.3.*.
@@ -36,7 +49,7 @@
 > - And many more optimizations for the latest version.
 ---
 
-> [4.0.0] `FINAL`
+> [4.0.0]
 >
 > - Dynamic banner usage for root and non-root users.
 > - All plugin code has been fully updated for compatibility with both rooted and non-rooted devices.  
