@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > ```
-> To improve the experience when playing games or multitasking for both root and non-root users, maybe this will help your phone a little to be even better.
+> A lightweight optimizer that works in the background to keep your device running smoothly.
 > ```
 
 > [!IMPORTANT]  
