@@ -1,4 +1,4 @@
-> ![Image](https://github.com/user-attachments/assets/82fcad15-127b-4dd4-a726-2e37059d8c34)
+> <img width="3264" height="1836" alt="Image" src="https://github.com/user-attachments/assets/ae16fe61-2aac-4980-b87c-fa628ccd8310" />
 
 > [!NOTE]
 > ```
@@ -7,20 +7,21 @@
 
 > [!IMPORTANT]  
 > Features ✨:  
-> 1. Auto drop page cache, recycle swap, and emergency kill when RAM is critical.
-> 2. Force-stop all background apps except whitelisted ones.
-> 3. Storage trim via block device and StorageManager on all major partitions.
-> 4. Disable printk, atrace, dmesg, logcat, and tracing buffer on boot.
-> 5. Disable Skia graphics tracing and SurfaceFlinger transaction tracing.
-> 6. Optimize Dalvik heap, dex2oat threads, cpu-set, and minidebuginfo.
-> 7. Private DNS set to Cloudflare security and SQLite WAL mode enabled.
-> 8. Optimize animation scale, touch response, and display settings.
-> 9. Kernel scheduler tuning including sched, perf event, timer migration, and panic handler.
-> 10. Disable binder stats, procstats, looper, window trace, and display logging.
-> 11. Device config tuning for jank monitor, iorap readahead, activity manager, and process freezer.
+> 1. Dynamic RAM management — auto drop cache, recycle swap, and trim memory based on current usage level.
+> 2. Force-stop background apps except whitelisted ones, with CPU and I/O priority lowered before kill.
+> 3. Storage trim on all major partitions with ext4 journal optimized to writeback mode.
+> 4. Disable printk, atrace, logcat, tracing buffer, and Skia graphics tracing on boot.
+> 5. Dalvik heap, dex2oat, and cpu-set optimized with per-device backup for safe restore.
+> 6. Kernel scheduler tuning — sched, perf event, timer migration, and panic handler.
+> 7. SQLite WAL mode, touch timeout, animation scale, freeform support, and hidden API policy optimized.
+> 8. Fixed performance mode, thermal throttling bypassed, and ambient display suppressed.
+> 9. Device config tuning for jank monitor, iorap readahead, activity manager, and process freezer.
+> 10. All third-party apps set to game performance mode with light doze enabled to save battery.
+> 11. Peak refresh rate auto-detected and applied to minimize display latency.
+> 12. SurfaceFlinger transaction tracing disabled, window logging cleared, and binder/looper stats suppressed.
 
 > [!TIP]
-> 1. Supports `AxManager` `Non-Root or Root`.
+> 1. Supports `AxManager` and `FolkPure` — `Non-Root or Root`.
 > 2. Minimum Android `10 sdk 29`.
 
 > [!WARNING]
