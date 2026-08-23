@@ -18,6 +18,7 @@
 > - Added `tr -d '\r'` to module ID and name extraction in `verify.sh` to strip CRLF line endings.
 > - Added `sha512`, `sha384`, `sha256`, and `sha224` to the hash algorithm fallback list in `verify.sh`; previously only `md5` and `sha1` were supported.
 > - Changed `banner=` in `module.prop` from local asset path to remote GitHub URL.
+> - Changed banner module for shell/non-root.
 > - Changed `strings` grep pattern in `customize.sh` from `manager|pure` to `axora|pure|manager`.
 > - Changed `customize.sh` to merge `get_app_label()` into `check_axeron_requirement()` using a `for entry in "pkg:label"` loop; `aapt` is no longer used for root manager label detection.
 > - Changed `customize.sh` to remove `AXMPATH` and `AXMPROP` variables in favor of the literal `$AXERONDIR/plugins/$ID` path.
@@ -43,6 +44,7 @@
 > - Fixed `sleep 1` added after `am force-stop` in `action.sh` to allow processes to fully terminate before `pidof`.
 > - Fixed division by zero in `service.sh` when `/proc/meminfo` is unavailable; `MEM_TOTAL` and `MEM_AVAIL` now default to safe values.
 > - Fixed stale runtime `description=` text in `service.sh` that overwrote `module.prop` on every boot with outdated wording; now matches the current description and uses `|` instead of `•` as separator.
+> - Fixed several `cmd`/`dumpsys`/`settings`/`fstrim` calls in `root` and `shell` that only redirected stderr; changed to redirect both stdout and stderr so system service error/status messages no longer leak to the log.
 > - Removed `.method` file deletion from `uninstall.sh`; only the plugin directory is removed on uninstall.
 > - Removed `$LOGNAME` check in `service.sh` user detection; `$USER` alone is now used.
 > - Removed duplicate SurfaceFlinger property deletion block in `uninstall.sh`; already covered by the debug property reset loop.
