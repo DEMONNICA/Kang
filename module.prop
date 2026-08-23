@@ -1,7 +1,7 @@
 id=KANG
 name=Kang
-version=7.0.0
-versionCode=700
+version=8.5.0
+versionCode=850
 author=@illumi
-description=A lightweight optimizer that works in the background to keep your device running smoothly.
+description=Performance and efficiency optimization for your device.
 axeronPlugin=666
