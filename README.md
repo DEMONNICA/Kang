@@ -7,18 +7,18 @@
 
 > [!IMPORTANT]  
 > Features ✨:  
-> 1. Dynamic RAM management — auto drop cache, recycle swap, and trim memory based on current usage level.
-> 2. Force-stop background apps except whitelisted ones, with CPU-intensive processes detected and killed based on usage threshold.
-> 3. Storage trim on all major partitions with filesystem flushed before trim to ensure all writes are committed.
-> 4. Disable printk, atrace, logcat, tracing buffer, and Skia graphics tracing on boot.
-> 5. Dalvik heap, dex2oat, and cpu-set optimized with per-device backup for safe restore.
-> 6. Kernel scheduler tuning — sched, perf event, timer migration, and oops limit.
-> 7. SQLite WAL mode, touch timeout, animation scale, freeform support, and hidden API policy optimized.
-> 8. Fixed performance mode, thermal throttling bypassed, and ambient display suppressed.
-> 9. Device config tuning for jank monitor, iorap readahead, activity manager, and process freezer.
-> 10. All third-party apps set to game performance mode with light doze enabled to save battery.
-> 11. Peak refresh rate auto-detected and applied to minimize display latency.
-> 12. SurfaceFlinger transaction tracing disabled, window logging cleared, and binder/looper stats suppressed.
+> 1. Smart memory management — cache, swap, and RAM trimmed dynamically based on usage.
+> 2. Background app control — inactive and CPU-heavy apps stopped automatically, with a whitelist for essentials.
+> 3. Storage maintenance — safe trim across all major partitions.
+> 4. Reduced system logging and tracing overhead on boot.
+> 5. App runtime (Dalvik) tuned for your device's memory and CPU, with safe backup and restore.
+> 6. Kernel-level scheduler and performance tuning.
+> 7. Display, animation, and multitasking optimizations.
+> 8. Sustained performance mode with thermal throttling bypassed.
+> 9. Reduced background monitoring overhead across the system.
+> 10. Game performance mode for all apps, with battery-friendly doze scheduling.
+> 11. Automatic peak refresh rate detection for smoother display response.
+> 12. Reduced rendering and logging overhead at the compositor level.
 
 > [!TIP]
 > 1. Supports `AxManager` and their forks — `Non-Root or Root`.
